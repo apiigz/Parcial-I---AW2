@@ -1,7 +1,7 @@
 //Importamos express y las funciones que vamos a usar en las rutas.
 import express from 'express'
-import {obtenerLibros, obtenerLibroPorID, obtenerValorTotalInventario} from "./funcionesApi.mjs"
-import {verificarEstadoInventario, verificarDisponibilidadLibro, avisoLibrosSinStock} from "./middlewares.mjs"
+import {obtenerLibros, obtenerLibroPorID, obtenerValorTotalInventario} from "./src/funciones/funcionesApi.mjs"
+import {verificarEstadoInventario, verificarDisponibilidadLibro, avisoLibrosSinStock} from "./src/funciones/middlewares.mjs"
 
 const puerto = 3000 //=> puerto en el que se va a ejecutar el servidor.
 

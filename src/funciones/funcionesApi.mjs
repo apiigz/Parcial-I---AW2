@@ -1,5 +1,5 @@
 //Importamos libros para trabajar con ella en las funciones de la API.
-import libros from "./libros.mjs"
+import libros from "../datos/libros.mjs"
 
 //Siguiendo con el contexto de la aplicación, nuestro primer GET nos permitirá obtener la información de todos los libros.
 export function obtenerLibros(req, res){

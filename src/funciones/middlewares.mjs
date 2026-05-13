@@ -1,6 +1,6 @@
 //Importamos libros para hacer uso de ella en los middlewares.
 
-import libros from "./libros.mjs";
+import libros from "../datos/libros.mjs";
 
 //En el contexto de nuestra aplicación, buscamos un middleware que nos permita verificar que tantos libros en stock tenemos, y, si llegase
 //el caso de que no hay libros, se mostraría un mensaje de error, y no se mostraría la información de los libros (en el caso del GET de todos los libros) o del libro solicitado (en el caso del GET de un libro por su id).
